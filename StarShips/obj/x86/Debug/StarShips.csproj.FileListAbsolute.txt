@@ -1,0 +1,15 @@
+/home/joe/Projects/StarShips/StarShips/bin/Debug/StarShips.exe
+/home/joe/Projects/StarShips/StarShips/bin/Debug/StarShips.pdb
+/home/joe/Projects/StarShips/StarShips/obj/x86/Debug/StarShips.csprojAssemblyReference.cache
+/home/joe/Projects/StarShips/StarShips/obj/x86/Debug/StarShips.csproj.CoreCompileInputs.cache
+/home/joe/Projects/StarShips/StarShips/obj/x86/Debug/StarShips.exe
+/home/joe/Projects/StarShips/StarShips/obj/x86/Debug/StarShips.pdb
+/home/joe/Projects/StarShips/StarShips/bin/Debug/Newtonsoft.Json.dll
+/home/joe/Projects/StarShips/StarShips/bin/Debug/System.Net.Http.Formatting.dll
+/home/joe/Projects/StarShips/StarShips/bin/Debug/System.Web.Http.dll
+/home/joe/Projects/StarShips/StarShips/bin/Debug/System.Web.Http.WebHost.dll
+/home/joe/Projects/StarShips/StarShips/bin/Debug/Newtonsoft.Json.xml
+/home/joe/Projects/StarShips/StarShips/bin/Debug/System.Net.Http.Formatting.xml
+/home/joe/Projects/StarShips/StarShips/bin/Debug/System.Web.Http.xml
+/home/joe/Projects/StarShips/StarShips/bin/Debug/System.Web.Http.WebHost.xml
+/home/joe/Projects/StarShips/StarShips/obj/x86/Debug/StarShips.csproj.CopyComplete
