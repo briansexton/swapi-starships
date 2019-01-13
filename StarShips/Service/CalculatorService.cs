@@ -12,7 +12,7 @@ namespace StarShips.Service
         }
 
         /*
-         * Check to validate if the user input is a valid number
+         * Check to validate if the user input valid 
          * 
          * Input: (string) input distance
          * 
@@ -25,6 +25,12 @@ namespace StarShips.Service
             BigInteger X;
             if (!BigInteger.TryParse(input, out X))
             {
+                Console.WriteLine("Not a valid number, try again.");
+                return false;
+            }
+            else if(!(BigInteger.Parse(input) >0))
+            {
+                Console.WriteLine("Number must be greater than 0, try again.");
                 return false;
             }
 
@@ -64,6 +70,8 @@ namespace StarShips.Service
                 {
                     MGLT = BigInteger.Parse(starShip.MGLT);
                     numStops = distance / (days * dayMultiplier * 24 * MGLT );
+                    Console.WriteLine("{0,-40} {1,5:N1}", starShip.name, numStops);
+
                 }
 
             }

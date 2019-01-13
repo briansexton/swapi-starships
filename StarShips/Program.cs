@@ -64,7 +64,6 @@ namespace StarShips
             while (!c.ParseInput(distance))
             {
 
-                Console.WriteLine("Not a valid number, try again.");
 
                 distance = Console.ReadLine();
             }
@@ -81,6 +80,8 @@ namespace StarShips
                  c.CalculateStops(data, BigInteger.Parse(distance));
             }
 
+            Console.WriteLine("Press any key to exit......");
+            Console.Read();
 
 
         }
