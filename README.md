@@ -9,16 +9,18 @@ Y-wing: 74
 Millennium Falcon: 9
 Rebel Transport: 11
 
-#Inputs
+# Inputs
 Number: MGLT distance
 
-#Outputs
+# Outputs
 The console will output a table with the starship name and the calulated number of stops to complete the distance 
 
-#Running the application
+# Running the application
 The application can be found in StarShips/application/
 Run StarShips.exe
 
+# Accessing the project files
 
+The application was developed using MonoDevelop and targetting .Net 4.7. Open the solution file at the root the project will allow you to view the code and rebuild the exe if required. All of the unit tests are located in UnitTest.cs file
 
 
