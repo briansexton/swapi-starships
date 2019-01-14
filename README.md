@@ -9,6 +9,15 @@ Y-wing: 74
 Millennium Falcon: 9
 Rebel Transport: 11
 
+The application will access the SWAPI starships endpoint (https://swapi.co/api/starships/) and retrieve all of the data from the paginated results
+
+The data returned fron the API is in JSON format and a list of  all of the startships is created from it
+
+From the user input the total required stops for each starship is calculated where possible. If the any of the values are unknown the stops for that starship will be listed as unknown
+
+The data is then presented in the console as a table listing the starship name and  the total stops.
+
+
 # Inputs
 Number: MGLT distance
 
