@@ -5,9 +5,9 @@ namespace StarShips
 {
     public class SWPage
     {
-        public string Count { get; set; }
-        public string Next { get; set; }
-        public string Previous { get; set; }
-        public List<StarShip> Results { get; set; }
+        public string count { get; set; }
+        public string next { get; set; }
+        public string previous { get; set; }
+        public List<StarShip> results { get; set; }
     }
 }

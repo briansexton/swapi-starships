@@ -9,7 +9,7 @@ namespace StarShips
     [TestFixture()]
     public class UnitTests
     {
-        [Test()]
+        [Test]
         //Test for user input as text
         public void InputString()
         {
@@ -24,7 +24,7 @@ namespace StarShips
             c.ParseInput("test");
         }
 
-        [Test()]
+        [Test]
         //Test for user input as partial text symbols and numbers
         public void InputPartialString()
         {
@@ -39,7 +39,7 @@ namespace StarShips
             c.ParseInput("123test*-+");
         }
 
-        [Test()]
+        [Test]
         //Test for user input as a number
         public void InputNumber()
         {
@@ -54,7 +54,7 @@ namespace StarShips
             c.ParseInput(distance);
         }
 
-        [Test()]
+        [Test]
         //Test for unknown as a comsumeable value
         public void ConsumeableUnknown()
         {
@@ -71,7 +71,7 @@ namespace StarShips
             c.CalculateStops(ship, distance);
         }
 
-        [Test()]
+        [Test]
         //Test for unknown as a MGLT value
         public void MGLTUnknown()
         {
@@ -89,7 +89,7 @@ namespace StarShips
         }
 
 
-        [Test()]
+        [Test]
         //Test for an unexpected value as a comsumeable input
         public void ConsumeableBadFormat()
         {

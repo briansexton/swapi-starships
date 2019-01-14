@@ -38,16 +38,16 @@ namespace StarShips
 
 
             //Create the initial list of starships from the  results
-            List<StarShip> starShips = swpage.Results;
+            List<StarShip> starShips = swpage.results;
 
             // Check the results to see if there are  more pages of data available
             // If there is more data keep looking the call  to the next page until 
             // end of the pageinated data is reached
-            while (swpage.Next != null)
+            while (swpage.next != null)
             {
 
-                swpage = service.GetStarShipData(swpage.Next);
-                starShips.AddRange(swpage.Results);
+                swpage = service.GetStarShipData(swpage.next);
+                starShips.AddRange(swpage.results);
             }
 
 
@@ -80,7 +80,7 @@ namespace StarShips
                  c.CalculateStops(data, BigInteger.Parse(distance));
             }
 
-            Console.WriteLine("Press any key to exit......");
+            Console.WriteLine("Press return to exit......");
             Console.Read();
 
 

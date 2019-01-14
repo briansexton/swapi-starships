@@ -6,10 +6,7 @@ namespace StarShips.Service
 {
     public class CalculatorService
     {
-        public CalculatorService()
-        {
 
-        }
 
         /*
          * Check to validate if the user input valid 

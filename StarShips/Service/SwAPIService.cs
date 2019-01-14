@@ -13,10 +13,7 @@ namespace StarShips
     {
 
 
-        public SwAPIService()
-        {
-
-        }
+       
 
         /*
          * Accessor method for connecting to the SW API and deserializes the data to an SWPage object
